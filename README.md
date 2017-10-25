@@ -20,4 +20,4 @@ next, try to execute the following R code on-line as a test
   point_est <- optimizing(modK, data=c("J","y","n"), algorithm = "LBFGS", verbose = FALSE, iter = 5000)
   fit = sampling(modK, data=c("J","y","n"), chains = 4, iter = Iterations, warmup = Warmup, control = list(adapt_delta = Delta), cores = 1, refresh=-1)
   
-  
+   
